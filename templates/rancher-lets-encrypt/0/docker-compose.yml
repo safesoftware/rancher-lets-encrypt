@@ -8,7 +8,7 @@ services:
       io.rancher.sidekicks: rancher-lets-encrypt
 
   rancher-lets-encrypt:
-    image: tozny/rancher-lets-encrypt
+    image: quay.io/safesoftware/rancher-lets-encrypt
     # If there is only a key, Rancher Compose will resolve to the values
     # on the machine or the file passed in using --env-file.
     # If the values are set using Rancher's UI, they will override the values from the .env file
